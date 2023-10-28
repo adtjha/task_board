@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.topBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background: #dfdfdf;
+}
+
+.taskLine {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  width: fit-content;
+  background: white;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.centerScreen {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 4rem;
+  overflow-y: scroll;
+  min-height: 70vh;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  background: #efefef;
+  width: fit-content;
+  padding: 0px 1rem 1rem 1rem;
+  gap: 8px;
+  min-width: 240px;
+  min-height: 120px;
+  height: auto;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #ebebeb;
+  width: fit-content;
+  margin: auto;
+}
+
+.form > input {
+  padding: 1rem;
+  font-size: 24px;
+  border: 0;
+  border-radius: 6px;
+}
+
+.form > button {
+  padding: 6px 16px;
+  border-radius: 6px;
+  background: #cdcdcd;
+}
+
+.ListHeading {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  background: #ddd;
+  padding: 4px;
+}
+
+button {
+  background: none;
+  border: 0;
+  font-size: 20px;
+}
+
+.addNewList {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8px;
+}
