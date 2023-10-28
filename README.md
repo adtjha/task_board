@@ -36,9 +36,9 @@ npm run dev
 ```
 
 ### Things to know
-
+```
 username: adtjha
 password: password
-
+```
 Secret Key used for JWT : "secret"
 
